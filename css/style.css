@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap");
+body {
+  font-family: "Scheherazade New", serif;
+  background: linear-gradient(#db0b5f, #6f00ed);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.country {
+  color: #120e43;
+  padding: 20px;
+  margin: 50px;
+  border: 2px solid black;
+  border-radius: 25px;
+  text-align: center;
+  background-color: antiquewhite;
+}
+.country:hover {
+  cursor: pointer;
+  background-color: burlywood;
+}
+.deaths {
+  color: #120e43;
+  padding: 20px;
+  margin: 50px;
+  border: 2px solid black;
+  border-radius: 25px;
+  text-align: center;
+  background-color: aquamarine;
+}
+
+.deaths:hover {
+  cursor: pointer;
+  background-color: #edbf69;
+}
+.cases {
+  color: #120e43;
+  padding: 20px;
+  margin: 50px;
+  border: 2px solid black;
+  border-radius: 25px;
+  text-align: center;
+  background-color: coral;
+}
+.cases:hover {
+  cursor: pointer;
+  background-color: #f4be2c;
+}
+.recovered {
+  color: #120e43;
+  padding: 20px;
+  margin: 50px;
+  border: 2px solid black;
+  border-radius: 25px;
+  text-align: center;
+  background-color:#6dc7b2;
+}
+.recovered:hover {
+  cursor: pointer;
+  background-color: #ff6666;
+}
+.new_death {
+  color: #120e43;
+  padding: 20px;
+  margin: 50px;
+  border: 2px solid black;
+  border-radius: 25px;
+  text-align: center;
+  background-color: #12b0e8;
+}
+.new_death:hover {
+  cursor: pointer;
+  background-color: #50dbb4;
+}
+.new_cases {
+  color: #120e43;
+  padding: 20px;
+  margin: 50px;
+  border: 2px solid black;
+  border-radius: 25px;
+  text-align: center;
+  background-color: yellow;
+}
+.new_cases:hover {
+  cursor: pointer;
+  background-color: #e03b8b;
+}
+.critical {
+  color: #120e43;
+  padding: 20px;
+  margin: 50px;
+  border: 2px solid black;
+  border-radius: 25px;
+  text-align: center;
+  background-color: turquoise;
+}
+.critical:hover {
+  cursor: pointer;
+  background-color: #c9976c;
+}
+.active_cases {
+  color: #120e43;
+  padding: 20px;
+  margin: 50px;
+  border: 2px solid black;
+  border-radius: 30px;
+  text-align: center;
+  background-color: thistle;
+}
+.active_cases:hover {
+  cursor: pointer;
+  background-color: #52b483;
+}
+.total_cases {
+  color: #120e43;
+  padding: 20px;
+  margin: 50px;
+  border: 2px solid black;
+  border-radius: 25px;
+  text-align: center;
+  background-color: #af9f58;
+}
+.total_cases:hover {
+  background-color: #6dc7b2;
+  cursor: pointer;
+}
+h3 {
+  padding-bottom: 10px;
+  font-size: 35px;
+}
+h2 {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 38px;
+  color: #fff;
+  font-family: "Roboto Slab", serif;
+  letter-spacing: 5px;
+}
+p {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.container {
+  width: 600px;
+  height: 360vh;
+}
