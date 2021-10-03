@@ -58,7 +58,7 @@ body {
   border: 2px solid black;
   border-radius: 25px;
   text-align: center;
-  background-color:#6dc7b2;
+  background-color: #6dc7b2;
 }
 .recovered:hover {
   cursor: pointer;
